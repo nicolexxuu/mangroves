@@ -17,10 +17,6 @@ a:hover {
 
 /* HEADER W/ LOGOS */
 
-header {
-    height: 25%;
-}
-
 .main-logo {
     height: 100%;
 }
@@ -32,18 +28,12 @@ header h1 {
     color: #006600;
 }
 
-.header-photo {
-    width: 100%;
-}
-
 .nested-row {
     height: 50% !important;
 }
 
 .logos,
 .logos div {
-    /* display: flex; */
-    /* align-items: center; */
     height: 100%;
 }
 
@@ -53,26 +43,9 @@ header h1 {
     justify-content: center;
 }
 
-
-
-/* .institutions {
-    height: 100%;
-}
-
-.institutions .row {
-    height: 50%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-} */
-
-/* .logo {
-    display: flex;
-    justify-content: space-between;
-} */
-
 .logo-wrapper img {
-    max-height: 90%;
+    /* max-height: 90%; */
+    max-height: 75px;
 }
 
 
@@ -143,4 +116,34 @@ footer {
     background-color: #1b1b1b;
     border-top: 5px solid #666;
     color: #ccc;
+    padding-bottom: 5rem;
+}
+
+.footer-pane {
+    background-color: #333;
+}
+
+footer ul {
+    margin: auto;
+    color: #fff;
+}
+
+
+footer li {
+    padding-right: 1em;
+    font-size: 1.5em;
+}
+
+.footer-banner {
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+}
+
+#mst-logo-gray img {
+    display: block;
+    margin: auto;
+    width: 150px;
+    position: relative;
+    top: -50px;
 }
