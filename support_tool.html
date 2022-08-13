@@ -11,10 +11,64 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#products">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="support_tool.html">Tool</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Publications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Related</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sites</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <header>
-        <a href="index.html">
-            <h1>Mangroves Lead the Way</h1>
-        </a>
+        <div class="logos">
+            <div class="main-logo col-4 d-flex align-items-center">
+                <img src="img/arrow.png" alt="" id="arrow-image" class="align-middle">
+                <a href="index.html">
+                    <h1>Mangroves Lead the Way</h1>
+                </a>
+            </div>
+
+            <div class="institutions col-8">
+                <div class="row">
+                    <div class="logo-wrapper"><img src="img/mst_logo.png" alt="" class="img-fluid"></div>
+                    <div class="logo-wrapper"><img src="img/fsg_logo.png" alt="" class="img-fluid"></div>
+                    <div class="logo-wrapper"><img src="img/usace_iwr_logo.jpg" alt="" class="img-fluid"></div>
+                    <div class="logo-wrapper"><img src="img/usna_logo.png" alt="" class="img-fluid"></div>
+                </div>
+                <div class="row">
+                    <div class="logo-wrapper"><img src="img/hmcr_logo.png" alt="" class="img-fluid"></div>
+                    <div class="logo-wrapper"><img src="img/wham_logo.png" alt="" class="img-fluid"></div>
+                    <div class="logo-wrapper"><img src="img/vt_logo.png" alt="" class="img-fluid"></div>
+                </div>
+            </div>
+        </div>
     </header>
 
     <img src="img/flooding_risk_long.jpg" alt="" class="header-photo">
@@ -34,7 +88,7 @@
         <div class="mb-3">
             <label for="climate-change">Climate Change of Scenarios</label>
             <select class="custom-select" id="climate-change">
-                <option selected>Please select a climate change</option>
+                <option selected>Please select a climate change scenario</option>
                 <option value="rcp8.5+ssp5">RCP8.5+SSP5</option>
                 <option value="rcp6+ssp3">RCP6+SSP3</option>
                 <option value="rcp4.5+ssp2">RCP4.5+SSP2</option>
