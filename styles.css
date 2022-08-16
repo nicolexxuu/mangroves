@@ -89,14 +89,15 @@ header h1 {
 .block h2 {
     position: absolute;
     /* color: #FFF; */
-    text-shadow: 2px 2px 3px #FFF;
-    color: #000;
+    text-shadow: 2px 2px 3px #000;
+    font-size: 4em;
+    color: #FFF;
     bottom: 1em;
     left: 1em;
     font-weight: 400;
 }
 
-.block small {
+small {
     position: absolute;
     color: #FFF;
     bottom: .5em;
@@ -123,7 +124,7 @@ footer {
     background-color: #1b1b1b;
     border-top: 5px solid #666;
     color: #ccc;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
 }
 
 .footer-pane {
