@@ -40,6 +40,10 @@ header h1 {
     height: 60%;
 }
 
+.logos a {
+    max-height: 100%;
+}
+
 .logo-wrapper {
     display: flex;
     align-items: center;
