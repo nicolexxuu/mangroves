@@ -65,10 +65,7 @@ header h1 {
 
 /* BLOCKS */
 #products .row {
-    height: 35vh;
     padding: 3px;
-    /* padding: 0; */
-    /* margin: 3px 0; */
 }
 
 .block {
@@ -94,7 +91,7 @@ header h1 {
     position: absolute;
     /* color: #FFF; */
     text-shadow: 2px 2px 3px #000;
-    font-size: 4em;
+    font-size: 3em;
     color: #FFF;
     bottom: 1em;
     left: 1em;
