@@ -104,6 +104,11 @@ small {
     left: 1em;
 }
 
+.outputs small {
+    left: 2em;
+}
+
+
 
 
 /* DECISION SUPPORT TOOL*/
